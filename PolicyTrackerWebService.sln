@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyTrackerWebService.Domain", "PolicyTrackerWebService.Domain\PolicyTrackerWebService.Domain.csproj", "{B979DE3D-A050-452C-8EC9-2F065F973902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyTrackerWebService.Infrastructure", "PolicyTrackerWebService.Infrastructure\PolicyTrackerWebService.Infrastructure.csproj", "{061C1926-4B17-4C75-A64D-F9D0F2407B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyTrackerWebService.Persistence", "PolicyTrackerWebService.Persistence\PolicyTrackerWebService.Persistence.csproj", "{4FE0A713-EED4-45AB-9854-F6AD32365334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyTrackerWebService.Repository", "PolicyTrackerWebService.Repository\PolicyTrackerWebService.Repository.csproj", "{4D7657DA-87EE-4A15-A1A6-C8C85655AD1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyTrackerWebService.Service", "PolicyTrackerWebService.Service\PolicyTrackerWebService.Service.csproj", "{A5EC7B69-565B-47B0-981F-98DB430EB6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyTrackerWebService", "PolicyTrackerWebService\PolicyTrackerWebService.csproj", "{45AC0C25-5299-42C9-AFB8-1110D1224EFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B979DE3D-A050-452C-8EC9-2F065F973902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B979DE3D-A050-452C-8EC9-2F065F973902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B979DE3D-A050-452C-8EC9-2F065F973902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B979DE3D-A050-452C-8EC9-2F065F973902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061C1926-4B17-4C75-A64D-F9D0F2407B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061C1926-4B17-4C75-A64D-F9D0F2407B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061C1926-4B17-4C75-A64D-F9D0F2407B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061C1926-4B17-4C75-A64D-F9D0F2407B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE0A713-EED4-45AB-9854-F6AD32365334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE0A713-EED4-45AB-9854-F6AD32365334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE0A713-EED4-45AB-9854-F6AD32365334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE0A713-EED4-45AB-9854-F6AD32365334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7657DA-87EE-4A15-A1A6-C8C85655AD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7657DA-87EE-4A15-A1A6-C8C85655AD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7657DA-87EE-4A15-A1A6-C8C85655AD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7657DA-87EE-4A15-A1A6-C8C85655AD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EC7B69-565B-47B0-981F-98DB430EB6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EC7B69-565B-47B0-981F-98DB430EB6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EC7B69-565B-47B0-981F-98DB430EB6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EC7B69-565B-47B0-981F-98DB430EB6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AC0C25-5299-42C9-AFB8-1110D1224EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AC0C25-5299-42C9-AFB8-1110D1224EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AC0C25-5299-42C9-AFB8-1110D1224EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AC0C25-5299-42C9-AFB8-1110D1224EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB2C0647-B170-42A7-9F16-070BCB53D597}
+	EndGlobalSection
+EndGlobal
